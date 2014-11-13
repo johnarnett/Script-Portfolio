@@ -1,0 +1,7 @@
+<font face="Calibri">
+
+The store tax script has been kicked off!<br>
+This will take about an hour to run.<br>
+The results will be emailed to you when finished.<br>
+
+</font>

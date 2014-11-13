@@ -1,0 +1,1 @@
+Contents of this folder have not been included for the sake of redundancy. CA scripts are identical to the US scripts, with the exception being the linux server they use to make the remote connections. 

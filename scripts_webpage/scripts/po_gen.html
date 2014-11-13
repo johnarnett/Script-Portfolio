@@ -1,0 +1,27 @@
+<html>
+<title>
+PO Generator
+</title>
+<body>
+<font face="Calibri">
+PO / Reference Number Generator
+<br>
+<br>
+        <form method="post" action="po_gen.php">
+        Store:<br><input type="text" size="12" maxlength="12" name="store"><br />
+        Country:<br>
+        	<select name="country">
+			<option value="US">US</option>
+			<option value="CA">Canada</option>
+			</select><br>
+		Cost under $1500?<br>
+			<select name="cost">
+			<option value="Y">Yes</option>
+			<option value="N">No</option>
+			</select><br>
+        Description:<br><input type="text" size="20" maxlength="36" name="desc"><br />
+        <input type="submit">
+        </form>
+</font>
+</body>
+</html>
