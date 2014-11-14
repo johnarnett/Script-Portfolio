@@ -1,3 +1,3 @@
 Script-Portfolio
 ================
-A collection of my scripts
+A collection of my work
