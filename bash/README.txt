@@ -1,0 +1,1 @@
+A collection of bash scripts I wrote for tasks that previously had to be done manually.
