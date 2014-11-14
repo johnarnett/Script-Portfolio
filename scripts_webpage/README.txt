@@ -9,4 +9,3 @@ arguments to the script for execution.
 Control Flow is as follows:
 index.html > scripts/script_name.html > scripts/script_name.php > scripts/script_name.sh
 
-Scripts used by server admin are located in the 'admin_scripts' directory
