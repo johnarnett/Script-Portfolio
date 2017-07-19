@@ -37,4 +37,3 @@ ENDSQL
 
 # Remove archived payroll hours older than 60 days
 find /zumcust/scripts/payroll_sunday/archive -not \( -type d -name ".?*" -prune \) -mtime +60 -exec rm -f {} \;
-
