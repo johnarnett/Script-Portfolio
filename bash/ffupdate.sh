@@ -1,6 +1,4 @@
 #!/bin/bash
-# Update Firefox at stores
-
 echo -n "Enter Store Number: "
 read st
 # Convert store number to IP
@@ -28,8 +26,8 @@ st_ip_r1="10."${array1[0]}"."${array1[1]}${array1[2]}".6"
 st_ip_r2="10."${array1[0]}"."${array1[1]}${array1[2]}".7"
 
 
+# Update Firefox
 sudo ssh root@$st_ip_r1 "pkill firefox; yum -y update firefox"
-
 sudo ssh root@$st_ip_r2 "pkill firefox; yum -y update firefox"
 
-echo "Updated Firfox  at store " $st
+echo "Updated Firefox  at store " $st
