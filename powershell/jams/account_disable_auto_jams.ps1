@@ -1,8 +1,8 @@
-﻿Import-Module activedirectory 
-
-############################
+﻿############################
 #   Auto-Disable Account   #
 ############################
+
+Import-Module activedirectory 
 $date = Get-Date -UFormat %m%d%Y
 $LOGFILE = "\\backroom\globalaccess$\AccountManagement\Logs\${date}_disabled.log"
 #$ErrorActionPreference = "SilentlyContinue"
