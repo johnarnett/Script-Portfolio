@@ -1,1 +1,1 @@
-Example collection of bash scripts I have written.
+Collection of bash scripts I have written.
