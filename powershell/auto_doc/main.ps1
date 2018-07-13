@@ -5,7 +5,7 @@
 # Updates documentation for monthly software builds.
 # Build artifacts get put into "input" folder for processing.
 # Each artifact must be in its own folder, named in the following format:
-# <PART_NUMBER>_<REV_LETTER>_<COMPONENT> e.g. "3326797_B_QnxRTOS"
+# <PART_NUMBER>_<REV_LETTER>_<COMPONENT> e.g. "3312345_B_QnxRTOS"
 
 
 # Import Libraries
@@ -21,10 +21,8 @@ $global:outpath = "$rootpath\unzip"
 $global:templates = "$rootpath\templates"
 $global:sha256 = "$rootpath\bin\sha256sum.exe"
 $global:folder_list = Get-ChildItem -Name $inpath
-$global:source_arch_rev = "3335295 Rev J"
-$global:build_version = "Q5_0.68.17"
-# $global:source_arch_rev = Read-Host -Prompt "Enter Source Archive Revision (e.g '3335295 Rev H')"
-# $global:build_version = Read-Host -Prompt "Enter Build Version (e.g 'Q5_0.67.20')"
+$global:source_arch_rev = Read-Host -Prompt "Enter Source Archive Revision (e.g '3312345 Rev H')"
+$global:build_version = Read-Host -Prompt "Enter Build Version (e.g '10.0.20.10')"
 
 
 # MAIN
