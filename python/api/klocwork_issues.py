@@ -26,12 +26,12 @@ import argparse
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='Generates Klocwork report by project')# noqa E501
+    parser = argparse.ArgumentParser(description='Generates Klocwork report by project')
     group = parser.add_mutually_exclusive_group()
-    parser.add_argument('-p', '--project', required=True, help='Specify a project NAME (not ID)')# noqa E501
-    group.add_argument('-b', '--build', action='store_true', help='Set this flag to view builds')# noqa E501
-    group.add_argument('-c', '--checkers', action='store_true', help='Set this flag to view checkers')# noqa E501
-    group.add_argument('-i', '--issue', choices=['open','reconciled'], help='Specify which issues to pull')# noqa E501
+    parser.add_argument('-p', '--project', required=True, help='Specify a project NAME (not ID)')
+    group.add_argument('-b', '--build', action='store_true', help='Set this flag to view builds')
+    group.add_argument('-c', '--checkers', action='store_true', help='Set this flag to view checkers')
+    group.add_argument('-i', '--issue', choices=['open','reconciled'], help='Specify which issues to pull')
 
     args = parser.parse_args()
     project = args.project
