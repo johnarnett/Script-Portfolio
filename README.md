@@ -1,3 +1,3 @@
 Script Portfolio
 ================
-A collection of BASH and PowerShell scripts used to automate tasks in Linux and Windows.
+A collection of work written in BASH, Powershell, and Python.
