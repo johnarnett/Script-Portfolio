@@ -1,1 +1,1 @@
-Collection of bash scripts I have written.
+A collection of work written in BASH
